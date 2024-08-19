@@ -1,0 +1,7 @@
+
+watchman watch-del-all
+watchman shutdown-server
+
+{
+  "ignore_dirs": ["node_modules", ".git"]
+}
